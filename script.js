@@ -32,6 +32,7 @@ function rand(){
       for(let j=0;j<arr.length;j++){
               if(arr[j]==str){
                   arr.splice(j,1);
+                  count--;
               }
           }
       arr.push( str);
