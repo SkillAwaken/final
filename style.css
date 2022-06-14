@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+
+*{
+  border: solid 1px black;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+.ncyu{
+  padding-top: 50px;
+}
+
+.container{
+  padding-top: 65px;
+}
+
+section{
+  padding-top: 80px;
+}
+
+section#s1{
+  background-color: rgba(123,122,222,0.2);
+}
+
+section#s2{
+  background-color: #e1b8ff;
+}
+
+section#s3{
+  background-color: #b8e1ff;
+  padding-bottom: 200px;
+}
+
+section#s4{
+  background-color: #fdffeb;
+}
+
+/* 40px */
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
